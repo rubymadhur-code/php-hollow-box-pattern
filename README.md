@@ -4,12 +4,6 @@ This repository contains **PHP star pattern programs** explained step by step.
 Perfect for **beginners and freshers** preparing for coding interviews.
 
 ---
-*****
-*   *
-*   *
-*   *
-*****
-
 
 ## 📌 Programs Included
 - Hollow Box Pattern ✅
