@@ -1,0 +1,40 @@
+<?php
+/*
+===============================
+Right-Angle Triangle Loop Trace
+===============================
+
+This table shows each step of the loops and what is printed.
+
+| i | j | Output       |
+|---|---|--------------|
+| 1 | 1 | *            |
+| 1 | - | <br> (end of row 1) |
+| 2 | 1 | *            |
+| 2 | 2 | *            |
+| 2 | - | <br> (end of row 2) |
+| 3 | 1 | *            |
+| 3 | 2 | *            |
+| 3 | 3 | *            |
+| 3 | - | <br> (end of row 3) |
+| 4 | 1 | *            |
+| 4 | 2 | *            |
+| 4 | 3 | *            |
+| 4 | 4 | *            |
+| 4 | - | <br> (end of row 4) |
+| 5 | 1 | *            |
+| 5 | 2 | *            |
+| 5 | 3 | *            |
+| 5 | 4 | *            |
+| 5 | 5 | *            |
+| 5 | - | <br> (end of row 5) |
+*/
+$rows = 5;
+
+for ($i = 1; $i <= $rows; $i++) {
+    // print columns
+    for ($j = 1; $j <= $i; $j++) {
+        echo "* ";
+    }
+    echo "<br>";
+}
